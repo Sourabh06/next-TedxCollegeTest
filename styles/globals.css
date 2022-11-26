@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -15,12 +19,11 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
+.win-btn {
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+    background: #eb0028;
     color: white;
-    background: black;
-  }
+    border: 1px solid transparent;
 }
