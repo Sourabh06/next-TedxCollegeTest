@@ -11,7 +11,7 @@ export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <header className='sticky top-0 z-50 shadow'>
+        <header className='sticky top-0 z-50 shadow bg-white'>
             <nav className='py-10 mb-12 flex justify-between'>
                 <div className='lg:flex xl:max-w-7xl mx-auto mx-w-full px-[-8%] flex-wrap w-full '>
                     <Link href='/'><Image src={mainLogo} alt='TEDxIIMRanchi logo' width={220} height={55}/></Link>

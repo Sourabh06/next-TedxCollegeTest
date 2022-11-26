@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from './footer'
 import Script from 'next/script';
+import Content from './content'
 import { useState } from 'react';
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800'>
               Lipsum thing
             </p>
+
+            <Content />
+
           </div>
 
         </section>
