@@ -32,13 +32,7 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-40 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>
-                <Image
-                  src="LandingPage\events.png"
-                  alt="Events"
-                  className="w-90 lg:h-100 rounded-t-lg"
-                />
-              </div>
+              <div>hi</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
                   Events
@@ -70,13 +64,7 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>
-                <Image
-                  src="LandingPage\about-us.png"
-                  alt="About Us"
-                  className="w-90 lg:h-100 rounded-t-lg"
-                />
-              </div>
+              <div>about us</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
                   About Us
@@ -110,13 +98,7 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-36 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>
-                <Image
-                  src="LandingPage\partners.png"
-                  alt="Partners"
-                  className="w-90 lg:h-100 rounded-t-lg"
-                />
-              </div>
+              <div>partners</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
                   Partners
