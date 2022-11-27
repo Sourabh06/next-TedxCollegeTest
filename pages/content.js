@@ -46,12 +46,13 @@ export default function content() {
                 <div>
                   <p className="py-2 tracking-wide mx-4">
                     Curiosity has led us this unprecedented Era we are living
-                    in. It is this curiosity that we at TEDxDTU wish to share
-                    with you all through our flagship TED Talk. This year the
-                    stars have aligned themselves for the event on 16th October!
+                    in. It is this curiosity that we at TEDxIIMRanchi wish to
+                    share with you all through our flagship TED Talk. This year
+                    the stars have aligned themselves for the event on 16th
+                    October!
                   </p>
                   <p className="py-2 tracking-wide mx-4">
-                    A day full of surprises awaits you. Join us at DTU' BR
+                    A day full of surprises awaits you. Join us at IIMRanchi
                     Auditorium to lift up the human in you and have a whole new
                     perspective&nbsp;on&nbsp;life.
                   </p>
