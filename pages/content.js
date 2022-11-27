@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function content() {
   return (
     <div>
@@ -25,15 +28,12 @@ export default function content() {
             </div>
           </div>
         </div>
-        <div
-          className="relative lg:h-[730px] group md:mt-20 aos-init aos-animate"
-          data-aos="fade-up"
-        >
+        <div className="relative lg:h-[730px] group md:mt-20">
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-40 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div>
-                <img
+                <Image
                   src="LandingPage\events.png"
                   alt="Events"
                   className="w-90 lg:h-100 rounded-t-lg"
@@ -60,21 +60,18 @@ export default function content() {
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
                 <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
-                  <a href="/events">Read more</a>
+                  <Link href="/events">Read more</Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="relative group md:-mt-80 md:mb-80 aos-init"
-          data-aos="fade-up"
-        >
+        <div className="relative group md:-mt-80 md:mb-80 ">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div>
-                <img
+                <Image
                   src="LandingPage\about-us.png"
                   alt="About Us"
                   className="w-90 lg:h-100 rounded-t-lg"
@@ -103,21 +100,18 @@ export default function content() {
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
                 <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
-                  <a href="/about">Read more</a>
+                  <Link href="/about">Read more</Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="relative lg:h-[780px] group aos-init"
-          data-aos="fade-up"
-        >
+        <div className="relative lg:h-[780px] group">
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-36 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div>
-                <img
+                <Image
                   src="LandingPage\partners.png"
                   alt="Partners"
                   className="w-90 lg:h-100 rounded-t-lg"
@@ -145,7 +139,7 @@ export default function content() {
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
                 <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
-                  <a href="/partners">Read more</a>
+                  <Link href="/about">Read more</Link>
                 </div>
               </div>
             </div>
