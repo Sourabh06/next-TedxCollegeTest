@@ -7,8 +7,8 @@ export default function content() {
       <div className="grid grid-cols-1 md:grid-cols-2 md:mx-auto gap-x-6 gap-y-20 pb-12 justify-items-center justify-evenly">
         <div className="relative group md:mt-44 mt-8">
           <div className="relative leading-none">
-            <div className="ml-[2rem] w-[20rem] md:ml-[5rem] mt-4 lg:w-[36rem] lg:ml-[7.5rem] lg:mt-5">
-              <div>TEDxIIMRanchi 2023 on 4th February in Ranchi |</div>
+            <div className="ml-[2rem] w-[20rem] md:ml-[5rem] mt-4 lg:w-[36rem] lg:ml-[7.5rem] lg:mt-5 text-center">
+              <div>TEDxIIMRanchi 2023 on 4th February in Ranchi </div>
               <div className=" text-2xl mt-2 md:text-3xl lg:text-4xl">
                 A world full of
               </div>
@@ -32,7 +32,6 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-40 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>hi</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
                   Events
@@ -64,7 +63,6 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>about us</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
                   About Us
@@ -98,10 +96,9 @@ export default function content() {
           <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-36 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
-              <div>partners</div>
               <div className="text-white bg-[#252525]">
                 <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
-                  Partners
+                  Team
                 </h2>
                 <div>
                   <p className="py-2 tracking-wide mx-4">

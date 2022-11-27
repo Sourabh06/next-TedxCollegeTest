@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <div className="bottom-0 p-5">
+    <div className="bottom-0 p-5 custom-box-shadow">
       <div className="grid-cols-5">
         <p className="w-auto">
           TEDxIIMRanchi is a self-organized branch of the humongous non-profit
@@ -48,6 +48,10 @@ export default function Footer() {
         >
           <AiFillInstagram />
         </Link>
+      </div>
+      <div className="text-center mt-2">
+        © Copyright 2022. This independent TEDx event is operated under license
+        from TED.
       </div>
     </div>
   );

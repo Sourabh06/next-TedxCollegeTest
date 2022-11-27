@@ -50,14 +50,14 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4 hover:shadow-inner"
-          href="/partners"
+          href="/team"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          Partners
+          Team
         </Link>
         <Link
           className="text-xl font-normal my-4 hover:shadow-inner"
@@ -145,10 +145,10 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/partners"
+              href="/team"
               className="bg-tedxred lg:px-4 block py-2 ml-8 win-btn"
             >
-              Partners
+              Team
             </Link>
 
             <Link
