@@ -23,24 +23,28 @@ export default function Footer() {
         <Link
           href="https://twitter.com/tedxiimranchi"
           className="hover:text-tedxred hover:scale-105"
+          target="_blank"
         >
           <AiFillTwitterCircle />
         </Link>
         <Link
           href="https://www.linkedin.com/company/tedxiimranchi"
           className="hover:text-tedxred hover:scale-105"
+          target="_blank"
         >
           <AiFillLinkedin />
         </Link>
         <Link
           href="https://www.facebook.com/tedxiimranchi"
           className="hover:text-tedxred hover:scale-105"
+          target="_blank"
         >
           <AiFillFacebook />
         </Link>
         <Link
           href="https://www.instagram.com/tedxiimranchi/"
           className="hover:text-tedxred hover:scale-105"
+          target="_blank"
         >
           <AiFillInstagram />
         </Link>

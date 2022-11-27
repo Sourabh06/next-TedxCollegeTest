@@ -158,7 +158,7 @@ export default function Navbar() {
               About
             </Link>
             <Link
-              href="/about"
+              href="/register"
               className="bg-tedxred lg:px-4 block py-2 ml-8 win-btn"
             >
               Register
