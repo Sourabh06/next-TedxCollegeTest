@@ -130,6 +130,12 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex">
+            <div className="mt-4 rounded-full">
+              <BsFillMoonStarsFill
+                onClick={() => setDarkMode(!darkMode)}
+                className="text-black cursor-pointer hover:text-white hover:bg-black"
+              />
+            </div>
             <Link
               href="/"
               className="bg-tedxred lg:px-4 block py-2 ml-8 win-btn"

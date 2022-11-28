@@ -2,7 +2,8 @@
 
 ## Notes
 
-main branch in use
+- main branch in use
+- dark mode, alignment, signup forms and email integration is WIP
 
 ### Requirements
 
@@ -11,12 +12,6 @@ main branch in use
 - nextjs
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-### Spotlight in teams page needs attention
-
-the script doesn't find the team-win-btn class at startup probably due to lazy loading. this is how the result would look like
-
-![](/windows10spotlight.gif)
 
 ## Getting Started
 
@@ -68,5 +63,11 @@ Follow this links for more site specific information
 - [hostinger](https://medium.com/@kmchaplain/deploying-a-react-application-on-hostinger-cf2c6c43b072)
 
 ---
+
+### References
+
+- [freecodecamp](https://www.freecodecamp.org/news/build-accordion-menu-in-react-without-external-libraries/)
+- [letmefail](https://letmefail.com/react/responsive-mobile-navigation-with-nextjs-and-tailwindcss/)
+- and a few more
 
 <center>made with <3 by sks</center>

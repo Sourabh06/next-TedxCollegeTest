@@ -19,31 +19,31 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 shadow-2xl">
+      <div className="text-5xl flex justify-center gap-8 py-3 text-gray-600 shadow-2xl">
         <Link
           href="https://twitter.com/tedxiimranchi"
-          className="hover:text-tedxred hover:scale-105"
+          className="hover:text-tedxred hover:scale-105 active:text-tedxred"
           target="_blank"
         >
           <AiFillTwitterCircle />
         </Link>
         <Link
           href="https://www.linkedin.com/company/tedxiimranchi"
-          className="hover:text-tedxred hover:scale-105"
+          className="hover:text-tedxred hover:scale-105 active:text-tedxred"
           target="_blank"
         >
           <AiFillLinkedin />
         </Link>
         <Link
           href="https://www.facebook.com/tedxiimranchi"
-          className="hover:text-tedxred hover:scale-105"
+          className="hover:text-tedxred hover:scale-105 active:text-tedxred"
           target="_blank"
         >
           <AiFillFacebook />
         </Link>
         <Link
           href="https://www.instagram.com/tedxiimranchi/"
-          className="hover:text-tedxred hover:scale-105"
+          className="hover:text-tedxred hover:scale-105 active:text-tedxred"
           target="_blank"
         >
           <AiFillInstagram />
