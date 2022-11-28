@@ -62,7 +62,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   ```
 - copy the build files in public_html of the file structure.
 
-Follow this links for more site specific information
+Follow these links for more site specific information
 
 - [hostgator](https://dev.to/tolentinoel/hostgator-web-hosting-with-a-react-app-2pfp)
 - [hostinger](https://medium.com/@kmchaplain/deploying-a-react-application-on-hostinger-cf2c6c43b072)
