@@ -13,8 +13,8 @@ export default function Register() {
       </div>
       <div className="m-2 p-4">
         <p className="text-lg ml-4">
-          A world full of opportunities awaits. Submit the interest form to know
-          more.
+          A world full of opportunities awaits. <br /> Submit the interest form
+          to know more.
         </p>
         <form
           action="#"

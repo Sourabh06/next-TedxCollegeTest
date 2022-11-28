@@ -1,9 +1,14 @@
 # TEDxIIMRanchi test website
 
+inspired from TEDxDTU website
+
 ## Notes
 
 - main branch in use
-- dark mode, alignment, signup forms and email integration is WIP
+- content to be updated
+- issues with spotlight need to be checked
+- partners page to be added
+- dark mode, alignment, signup forms and email integration are WIP
 
 ### Requirements
 

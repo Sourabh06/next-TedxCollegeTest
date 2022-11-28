@@ -6,7 +6,7 @@ export default function content() {
       <div className="grid grid-cols-1 md:grid-cols-2 md:mx-auto gap-x-6 gap-y-20 pb-12 justify-items-center justify-evenly">
         <div className="relative group md:mt-44 mt-8">
           <div className="relative leading-none">
-            <div className="ml-[2rem] w-[20rem] md:ml-[5rem] mt-4 lg:w-[36rem] lg:ml-[7.5rem] lg:mt-5 text-center">
+            <div className="ml-[2rem] w-[20rem] md:ml-[5rem] mt-4 lg:w-[36rem] lg:ml-[7.5rem] lg:mt-5 text-center shadow-xl p-2">
               <div>TEDxIIMRanchi 2023 on 4th February in Ranchi </div>
               <div className=" text-2xl mt-2 md:text-3xl lg:text-4xl">
                 A world full of
@@ -20,19 +20,21 @@ export default function content() {
                 leaders.
               </div>
               <div className="md:w-80 mt-2">
-                <button className="bg-red-600 w-28 h-12 text-lg mt-2 hover:border-red-600 hover:border-2 hover:bg-white hover:text-red-600">
-                  Book Now
-                </button>
+                <Link href="/register">
+                  <button className="bg-tedxred w-28 h-12 text-lg mt-2 hover:border-tedxred hover:border-2 hover:bg-white hover:text-tedxred">
+                    Book Now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <div className="relative lg:h-[730px] group md:mt-20">
-          <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-40 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-40 lg:pb-3 from-tedxred to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div className="text-white bg-[#252525]">
-                <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
+                <h2 className="text-3xl border-b-2 py-4 border-tedxred text-justify font-bold pl-4">
                   Events
                 </h2>
                 <div>
@@ -51,7 +53,7 @@ export default function content() {
                 </div>
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
-                <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
+                <div className="bg-tedxred m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
                   <Link href="/events">Read more</Link>
                 </div>
               </div>
@@ -59,11 +61,11 @@ export default function content() {
           </div>
         </div>
         <div className="relative group md:-mt-80 md:mb-80 ">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-tedxred to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div className="text-white bg-[#252525]">
-                <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
+                <h2 className="text-3xl border-b-2 py-4 border-tedxred text-justify font-bold pl-4">
                   About Us
                 </h2>
                 <div>
@@ -84,7 +86,7 @@ export default function content() {
                 </div>
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
-                <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
+                <div className="bg-tedxred m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
                   <Link href="/about">Read more</Link>
                 </div>
               </div>
@@ -92,11 +94,11 @@ export default function content() {
           </div>
         </div>
         <div className="relative lg:h-[780px] group">
-          <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-36 lg:pb-3 from-red-700 to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r md:pb-36 lg:pb-3 from-tedxred to-blue-700 rounded-lg blur opacity-50 group-hover:opacity-100 transition duration-1000 group-hover:200"></div>
           <div className="relative rounded-lg leading-none">
             <div className="w-full max-w-[20rem] sm:max-w-[24rem] md:max-w-[22rem] lg:max-w-[24rem] m-4 ">
               <div className="text-white bg-[#252525]">
-                <h2 className="text-3xl border-b-2 py-4 border-red-600 text-justify font-bold pl-4">
+                <h2 className="text-3xl border-b-2 py-4 border-tedxred text-justify font-bold pl-4">
                   Team
                 </h2>
                 <div>
@@ -116,7 +118,7 @@ export default function content() {
                 </div>
               </div>
               <div className="flex flex-row-reverse bg-[#252525] rounded-b-lg">
-                <div className="bg-red-600 m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
+                <div className="bg-tedxred m-4 w-24 py-2 rounded text-center hover:bg-red-400 transition-all">
                   <Link href="/about">Read more</Link>
                 </div>
               </div>
