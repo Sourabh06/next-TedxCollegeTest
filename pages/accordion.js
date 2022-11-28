@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
@@ -11,8 +12,26 @@ const Accordion = ({ title, content }) => {
       </div>
       {/* {console.log(content)} */}
       {isActive && (
-        <div className="accordion-pic hover:animate-pulse rounded-2xl m-4 w-10 h-10 p-2 bg-gradient-to-b from-tedxred to-black">
-          {content.pic}
+        <div className="accordion-pic p-2 bg-[rgba(255,255,255,0.1)] text-white text-lg flex">
+          {content.folks.map(({ key, details }) => {
+            return (
+              <div
+                key={key}
+                className="p-2 hover:animate-pulse rounded-2xl m-4 bg-gradient-to-b from-tedxred to-black"
+              >
+                <Image
+                  src={details.pic}
+                  alt={`${details.name} pic`}
+                  width={100}
+                  height={100}
+                  className="rounded-full h-[100px]"
+                />
+                <div className="bg-[rgba(0,0,0,0.3)] text-center">
+                  {details.name}
+                </div>
+              </div>
+            );
+          })}
         </div>
       )}
       {isActive && <div className="accordion-content">{content.info}</div>}

@@ -44,7 +44,7 @@ a {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
+.active {
   background-color: #ccc;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 /* .accordion-title:hover {
-  background-color: white;
+  box-shadow: 0 0 2px 2px #eb0028;
 } */
 
 .accordion-title,

@@ -12,6 +12,12 @@ main branch in use
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Spotlight in teams page needs attention
+
+the script doesn't find the team-win-btn class at startup probably due to lazy loading. this is how the result would look like
+
+![](/windows10spotlight.gif)
+
 ## Getting Started
 
 First, run the development server:
