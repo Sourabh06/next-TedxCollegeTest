@@ -11,7 +11,7 @@ const Accordion = ({ title, content }) => {
         <div className="test">{isActive ? "-" : "+"}</div>
       </div>
       {isActive && (
-        <div className="accordion-pic p-2 bg-[rgba(255,255,255,0.1)] text-white text-lg flex flex-col justify-evenly max-w-max">
+        <div className="accordion-pic p-2 bg-[rgba(255,255,255,0.1)] text-white text-lg flex w-max">
           {content.folks.map(({ key, details }) => {
             return (
               <div
