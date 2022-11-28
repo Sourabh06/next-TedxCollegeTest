@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Accordion from "./accordion";
-import { accordionData } from "./members";
+import { accordionData } from "../public/members/members";
 
 export default function team() {
   return (
