@@ -18,16 +18,16 @@ export default function About() {
       </div>
       <div className="lg:grid lg:grid-cols-3 w-full py-16">
         <div className="col-span-2">
-          <div class="mx-auto mb-16 lg:mb-32 w-3/4 h-fit">
-            <header class="text-center text-6xl my-8 text-black text-stroke-thin-red font-bold ">
+          <div className="mx-auto mb-16 lg:mb-32 w-3/4 h-fit">
+            <header className="text-center text-6xl my-8 text-black text-stroke-thin-red font-bold ">
               About TEDx
             </header>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               There is one thing stronger than all the armies in the world, an
               idea whose time has come. Everything begins with an idea, a
               thought that provokes action and an intention that brings change.
             </p>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               In the spirit of ideas worth spreading, TEDx is a program of local
               self-organized events that bring people together to share a
               TED-like experience. At a TEDx event, TED Talks video and live
@@ -37,17 +37,17 @@ export default function About() {
               general guidance for the TEDx program, but individual TEDx events
               are self-organized. (Subject to certain rules and regulations.)
             </p>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               We envision delivering impactful and worthwhile ideas that hold
               the potential to spark a change, ignite ambition and bring about
               the difference that needs to be made.
             </p>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               TEDxIIMRanchi is a self-organized branch of the humongous
               non-profit organization TED. that bears ideas as tasteful as a
               fruit that one reaps from a blossoming and ever-growing tree.
             </p>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               From hosting the versatile, robust and inspiring Kiran Bedi to
               world-renowned Indian car designer Dilip Chhabria, from discussing
               the future of technology to the dilemmas faced by today&apos;s
@@ -55,7 +55,7 @@ export default function About() {
               through influential voices and through the people who have met the
               thick and thins of life.
             </p>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               Our motto is to enlighten people, to chisel in an idea that can
               drive necessary change, to impact fellow humans with powerful
               words, to ask people to keep heart, to ask them to believe that
@@ -65,11 +65,11 @@ export default function About() {
             </p>
           </div>
 
-          <div class="mx-auto mb-16 lg:mb-32 w-3/4 h-fit">
-            <header class="text-center text-6xl my-8 text-black text-stroke-thin-red font-bold ">
+          <div className="mx-auto mb-16 lg:mb-32 w-3/4 h-fit">
+            <header className="text-center text-6xl my-8 text-black text-stroke-thin-red font-bold ">
               What is TED
             </header>
-            <p class="shadow-2xl rounded p-4 my-4 text-xl text-justify">
+            <p className="shadow-2xl rounded p-4 my-4 text-xl text-justify">
               TED is a nonprofit organization devoted to Ideas Worth Spreading.
               Started as a four-day conference in California 30 years ago, TED
               has grown to support its mission with multiple initiatives. The

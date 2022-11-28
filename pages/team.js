@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import { AiFillLinkedin } from "react-icons/ai";
+import Accordion from "./accordion";
+import { accordionData } from "./members";
 
 export default function team() {
   return (
@@ -13,7 +15,7 @@ export default function team() {
       <div className="text-center gap-16 py-3 px-5">
         <h1 className="text-5xl">Our Team</h1>
         <div className="flex w-128 flex-wrap justify-around">
-          <div className="shadow-2xl b-slate-600 w-64">
+          {/* <div className="shadow-2xl b-slate-600 w-64">
             <div className="m-4 w-50 h-50 p-28 hover:animate-pulse bg-gradient-to-b from-tedxred to-black rounded-2xl">
               <Link href="https://linkedin.com">
                 <AiFillLinkedin />
@@ -117,7 +119,13 @@ export default function team() {
               text ever since the 1500s, when an unknown printer took a galley
               of type and scrambled it to make a type specimen book.
             </p>
-          </div>
+          </div> */}
+        </div>
+
+        <div className="accordion">
+          {accordionData.map(({ title, content }) => (
+            <Accordion key={title} title={title} content={content} />
+          ))}
         </div>
       </div>
     </div>

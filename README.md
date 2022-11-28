@@ -1,8 +1,13 @@
 # TEDxIIMRanchi test website
 
-## Requirements
+## Notes
+
+main branch in use
+
+### Requirements
+
 - npm
-- react 
+- react
 - nextjs
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -39,3 +44,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+---
+
+## Basic deployment steps
+
+- mention your public url at the required locations
+- run
+  ```bash
+  npm run build
+  ```
+- copy the build files in public_html of the file structure.
+
+Follow this links for more site specific information
+
+- [hostgator](https://dev.to/tolentinoel/hostgator-web-hosting-with-a-react-app-2pfp)
+- [hostinger](https://medium.com/@kmchaplain/deploying-a-react-application-on-hostinger-cf2c6c43b072)
+
+---
+
+<center>made with <3 by sks</center>

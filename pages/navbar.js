@@ -2,7 +2,6 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import mainLogo from "../public/logos/logo-black.png";
 import Image from "next/image";
 import Link from "next/link";
-import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 
 function MobileNav({ open, setOpen }) {
